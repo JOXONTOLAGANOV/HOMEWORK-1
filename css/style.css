@@ -27,6 +27,7 @@ a{
  img{
      width: 100%;
  }
+ 
 
  .nav .container{
     display: flex;
@@ -164,13 +165,24 @@ a{
 
 
 
-.main_title{
+.main_title {
     display: flex;
+    align-items: center;
 }
 
-.main{
+.main {
     margin-top: 200px;
     background-color: rgba(122, 160, 163, 0.39);
+}
+
+.main_text{
+    font-size: 40px;
+}
+
+.main_little_text{
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 20px;
 }
 
 
