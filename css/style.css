@@ -27,11 +27,11 @@ a{
  img{
      width: 100%;
  }
+
  
 
  .nav .container{
     display: flex;
-    margin-top: 20px;
  }
 
  .nav_title{
@@ -65,9 +65,18 @@ a{
     position: relative;
     left: 90px;
     border-radius: 10px;
-    background-image: url("../");
+ 
 }
 
+.hello_1 {
+    background-image: url("../img/BG.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 877px;
+    width: 1405px;
+    position: relative;
+    right: 207px;
+}
 
  
 @media (max-width:1160px){
@@ -166,14 +175,11 @@ a{
 
 
 
+
+
 .main_title {
     display: flex;
     align-items: center;
-}
-
-.main{
-    margin-top: 200px;
-    background-color: rgba(122, 160, 163, 0.39);
 }
 
 .main_text{
